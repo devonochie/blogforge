@@ -17,10 +17,33 @@ A simple RESTful API for a personal blogging platform. Users can create, update,
 - Node.js installed on your machine.
 - MongoDB setup for data storage.
 
-## Installation
+## 📦 Installation
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd blogging-platform-api
-# blogforge
+```bash
+# Clone the repository
+git clone https://github.com/devonochie/blogforge.git
+
+cd blogforge
+
+# Install dependencies
+npm install
+
+# Create .env file
+cp .env.example .env
+
+# Run migrations/seed (if applicable)
+npm run db:init
+
+# Start the server
+npm run dev
+
+🧩 Contributing
+Feel free to fork this project and submit PRs.
+Please follow the existing coding style and open issues for major changes.
+
+📄 License
+This project is licensed under the MIT License.
+
+👤 Author
+Devon Onochie
+GitHub: @devonochie
